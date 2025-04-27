@@ -1,9 +1,3 @@
-# objeto
-
- Claro! Organizei seu texto para deixá-lo mais limpo, estruturado e fácil de entender:
-
----
-
 # Objetivo
 Dado o número de um cartão de crédito, validar qual é a **bandeira** daquele cartão.
 
