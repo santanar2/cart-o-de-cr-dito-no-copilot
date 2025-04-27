@@ -54,6 +54,6 @@ Exemplo de saída esperada:
 **cart-o-de-cr-dito-no-copilot**
 
 ---
-
+<!-->
 Quer que eu também já te entregue um modelinho de código para essa validação em Node.js? 🎯  
-(Se quiser, eu já preparo com os regex prontos!)
+(Se quiser, eu já preparo com os regex prontos!)-->
