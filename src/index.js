@@ -5,7 +5,11 @@ function validarBandeiraCartao(numeroCartao) {
         { nome: "Elo", regex: /^(4011|4312|4389|6220|650|651|652|653|654|655|656|657|658|659)/ },
         { nome: "American Express", regex: /^(34|37)/ },
         { nome: "Discover", regex: /^(6011|65|64[4-9])/ },
-        { nome: "Hipercard", regex: /^6062/ }
+        { nome: "Hipercard", regex: /^6062/ },
+        { nome: "Enroute", regex: /^2149/ },
+        { nome: "JCB", regex: /^3551/ },
+        { nome: "Voyager", regex: /^86993/ },
+        { nome: "Aura", regex: /^5086/ }
     ];
 
     for (const bandeira of bandeiras) {
@@ -18,6 +22,6 @@ function validarBandeiraCartao(numeroCartao) {
 }
 
 // Exemplo de uso:
-const numeroCartao = "5277959558870483"; // Substitua pelo número do cartão
+const numeroCartao = "4111111111111111"; // Substitua pelo número do cartão
 const bandeira = validarBandeiraCartao(numeroCartao);
 console.log(`A bandeira do cartão é: ${bandeira}`);
